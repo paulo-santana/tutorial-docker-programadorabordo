@@ -1,0 +1,19 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "API do tutorial de Docker do canal Programador a Bordo",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon ./src/index"
+  },
+  "author": "Paulo Santana",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
